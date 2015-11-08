@@ -14751,7 +14751,7 @@ Source: www.kingbright.com</description>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="3MM"/>
+<part name="PWR" library="led" deviceset="LED" device="3MM"/>
 <part name="R100" library="rcl" deviceset="R-EU_" device="0207/7" value="4k7"/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
@@ -14981,7 +14981,7 @@ Source: www.kingbright.com</description>
 <instance part="IC4" gate="P" x="203.2" y="22.86"/>
 <instance part="GND27" gate="1" x="203.2" y="5.08"/>
 <instance part="P+10" gate="VCC" x="203.2" y="43.18"/>
-<instance part="LED1" gate="G$1" x="238.76" y="-76.2"/>
+<instance part="PWR" gate="G$1" x="238.76" y="-76.2"/>
 <instance part="R100" gate="G$1" x="238.76" y="-88.9" rot="R90"/>
 <instance part="P+11" gate="VCC" x="238.76" y="-68.58"/>
 <instance part="GND28" gate="1" x="238.76" y="-99.06"/>
@@ -15343,7 +15343,7 @@ Source: www.kingbright.com</description>
 <wire x1="203.2" y1="30.48" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="PWR" gate="G$1" pin="A"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 <wire x1="238.76" y1="-73.66" x2="238.76" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
@@ -16018,7 +16018,7 @@ Source: www.kingbright.com</description>
 <net name="N$44" class="0">
 <segment>
 <pinref part="R100" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="PWR" gate="G$1" pin="C"/>
 <wire x1="238.76" y1="-83.82" x2="238.76" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
