@@ -16716,7 +16716,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </classes>
 <parts>
 <part name="TRIG" library="pinhead" deviceset="PINHD-1X3" device=""/>
-<part name="LEVEL" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="SENS" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="PIEZO" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -16753,7 +16753,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="050-025X075" value=".047"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="ATTK" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="ATTACK" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="IC5" library="linear" deviceset="LM358" device="N"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="050-025X075" value=".022"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="050-025X075" value=".0033"/>
@@ -16763,7 +16763,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="R39" library="rcl" deviceset="R-EU_" device="0207/7" value="22k"/>
 <part name="RATE" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="R37" library="rcl" deviceset="R-EU_" device="0207/7" value="330"/>
-<part name="WAVE" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="SHAPE" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R41" library="rcl" deviceset="R-EU_" device="0207/7" value="47k"/>
 <part name="MOD" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="PITCH" library="pinhead" deviceset="PINHD-1X3" device=""/>
@@ -16803,7 +16803,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="0207/7" value="47k"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="0207/7" value="100k"/>
-<part name="VCO_WAVE" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="WAVE" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="R32" library="rcl" deviceset="R-EU_" device="0207/7" value="220k"/>
 <part name="R36" library="rcl" deviceset="R-EU_" device="0207/7" value="100k"/>
 <part name="R35" library="rcl" deviceset="R-EU_" device="0207/7" value="100k"/>
@@ -16846,7 +16846,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="Q6" library="transistor" deviceset="2N3904" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
-<part name="SENS" library="pot" deviceset="TRIM_EU-" device="CA6V"/>
+<part name="SENS_LEVEL" library="pot" deviceset="TRIM_EU-" device="CA6V"/>
 </parts>
 <sheets>
 <sheet>
@@ -16854,7 +16854,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </plain>
 <instances>
 <instance part="TRIG" gate="A" x="7.62" y="93.98" rot="R90"/>
-<instance part="LEVEL" gate="A" x="22.86" y="93.98" rot="R90"/>
+<instance part="SENS" gate="A" x="22.86" y="93.98" rot="R90"/>
 <instance part="PIEZO" gate="G$1" x="-5.08" y="93.98" rot="R90"/>
 <instance part="GND1" gate="1" x="-7.62" y="81.28"/>
 <instance part="GND2" gate="1" x="10.16" y="81.28"/>
@@ -16918,7 +16918,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </instance>
 <instance part="GND12" gate="1" x="220.98" y="78.74"/>
 <instance part="GND13" gate="1" x="205.74" y="78.74"/>
-<instance part="ATTK" gate="G$1" x="231.14" y="99.06" rot="R90"/>
+<instance part="ATTACK" gate="G$1" x="231.14" y="99.06" rot="R90"/>
 <instance part="IC5" gate="B" x="281.94" y="22.86" smashed="yes" rot="MR180">
 <attribute name="NAME" x="284.48" y="19.685" size="1.778" layer="95" rot="MR180"/>
 </instance>
@@ -16939,7 +16939,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <attribute name="VALUE" x="49.53" y="-33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="R37" gate="G$1" x="48.26" y="-38.1" rot="R270"/>
-<instance part="WAVE" gate="G$1" x="71.12" y="7.62"/>
+<instance part="SHAPE" gate="G$1" x="71.12" y="7.62"/>
 <instance part="R41" gate="G$1" x="55.88" y="-15.24" rot="R180"/>
 <instance part="MOD" gate="A" x="187.96" y="-15.24"/>
 <instance part="PITCH" gate="A" x="195.58" y="-15.24" rot="R180"/>
@@ -17013,7 +17013,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="GND21" gate="1" x="238.76" y="-7.62"/>
 <instance part="R33" gate="G$1" x="248.92" y="-5.08" rot="R90"/>
 <instance part="R31" gate="G$1" x="266.7" y="35.56"/>
-<instance part="VCO_WAVE" gate="A" x="307.34" y="40.64" rot="R90"/>
+<instance part="WAVE" gate="A" x="307.34" y="40.64" rot="R90"/>
 <instance part="R32" gate="G$1" x="299.72" y="22.86"/>
 <instance part="R36" gate="G$1" x="269.24" y="12.7"/>
 <instance part="R35" gate="G$1" x="259.08" y="5.08" rot="R90"/>
@@ -17085,7 +17085,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </instance>
 <instance part="GND14" gate="1" x="109.22" y="-167.64"/>
 <instance part="P+12" gate="VCC" x="109.22" y="-116.84"/>
-<instance part="SENS" gate="1" x="22.86" y="104.14" rot="MR270"/>
+<instance part="SENS_LEVEL" gate="1" x="22.86" y="104.14" rot="MR270"/>
 </instances>
 <busses>
 </busses>
@@ -17103,13 +17103,13 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="LEVEL" gate="A" pin="3"/>
+<pinref part="SENS" gate="A" pin="3"/>
 <wire x1="25.4" y1="83.82" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <junction x="25.4" y="91.44"/>
 <wire x1="25.4" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="99.06" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SENS" gate="1" pin="A"/>
+<pinref part="SENS_LEVEL" gate="1" pin="A"/>
 <wire x1="30.48" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -17265,24 +17265,24 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <segment>
 <pinref part="TRIG" gate="A" pin="2"/>
 <wire x1="7.62" y1="91.44" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="LEVEL" gate="A" pin="1"/>
+<pinref part="SENS" gate="A" pin="1"/>
 <wire x1="7.62" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="86.36" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="91.44" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
 <junction x="20.32" y="91.44"/>
 <wire x1="20.32" y1="99.06" x2="15.24" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="99.06" x2="15.24" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="SENS" gate="1" pin="E"/>
+<pinref part="SENS_LEVEL" gate="1" pin="E"/>
 <wire x1="15.24" y1="104.14" x2="17.78" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LEVEL" gate="A" pin="2"/>
+<pinref part="SENS" gate="A" pin="2"/>
 <wire x1="22.86" y1="91.44" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="SENS" gate="1" pin="S"/>
+<pinref part="SENS_LEVEL" gate="1" pin="S"/>
 <wire x1="22.86" y1="91.44" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
 <junction x="22.86" y="91.44"/>
 </segment>
@@ -17514,7 +17514,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="93.98" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="ATTK" gate="G$1" pin="1"/>
+<pinref part="ATTACK" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="93.98" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="93.98" x2="228.6" y2="96.52" width="0.1524" layer="91"/>
 <junction x="220.98" y="93.98"/>
@@ -17522,7 +17522,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="ATTACK_OUT" class="0">
 <segment>
-<pinref part="ATTK" gate="G$1" pin="2"/>
+<pinref part="ATTACK" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="96.52" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="93.98" x2="241.3" y2="93.98" width="0.1524" layer="91"/>
 <label x="238.76" y="93.98" size="1.778" layer="95"/>
@@ -17542,7 +17542,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="50.8" y1="20.32" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="10.16" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
 <junction x="50.8" y="20.32"/>
-<pinref part="WAVE" gate="G$1" pin="1"/>
+<pinref part="SHAPE" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="10.16" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
 <junction x="50.8" y="10.16"/>
 <pinref part="IC1" gate="A" pin="OUT"/>
@@ -17712,7 +17712,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <segment>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="-15.24" x2="76.2" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="WAVE" gate="G$1" pin="2"/>
+<pinref part="SHAPE" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="7.62" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="7.62" x2="60.96" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="60.96" y="-15.24"/>
@@ -17900,7 +17900,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <net name="N$39" class="0">
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
-<pinref part="VCO_WAVE" gate="A" pin="1"/>
+<pinref part="WAVE" gate="A" pin="1"/>
 <wire x1="271.78" y1="35.56" x2="304.8" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="35.56" x2="304.8" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -17925,7 +17925,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <net name="N$41" class="0">
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="VCO_WAVE" gate="A" pin="3"/>
+<pinref part="WAVE" gate="A" pin="3"/>
 <wire x1="304.8" y1="22.86" x2="309.88" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="22.86" x2="309.88" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -17944,7 +17944,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="VCO_WAVE" gate="A" pin="2"/>
+<pinref part="WAVE" gate="A" pin="2"/>
 <wire x1="307.34" y1="38.1" x2="307.34" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="+"/>
 <wire x1="307.34" y1="10.16" x2="314.96" y2="10.16" width="0.1524" layer="91"/>
@@ -18159,21 +18159,24 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <approved hash="104,1,203.2,15.24,IC4P,V-,GND,,,"/>
 <approved hash="104,1,38.1,-73.66,IC1P,V+,VCC,,,"/>
 <approved hash="104,1,38.1,-88.9,IC1P,V-,GND,,,"/>
-<approved hash="113,1,6.21877,94.6279,EXT_INPUT,,,,,"/>
-<approved hash="113,1,21.4588,94.4181,SENS_POT,,,,,"/>
+<approved hash="113,1,6.21877,91.6771,TRIG,,,,,"/>
+<approved hash="113,1,21.4588,91.6771,LEVEL,,,,,"/>
 <approved hash="113,1,-7.75123,91.6771,PIEZO,,,,,"/>
-<approved hash="113,1,77.4762,67.1788,DECAY_POT,,,,,"/>
+<approved hash="113,1,80.8011,67.1788,DECAY,,,,,"/>
 <approved hash="113,1,228.469,97.5389,ATTACK,,,,,"/>
-<approved hash="113,1,61.6279,-25.4,MOD_RATE,,,,,"/>
-<approved hash="113,1,76.5031,10.2912,MOD_WAVE_FORM,,,,,"/>
-<approved hash="113,1,189.599,-13.8388,MOD_DEPTH,,,,,"/>
+<approved hash="113,1,57.9504,-25.4,RATE,,,,,"/>
+<approved hash="113,1,69.0812,10.2912,SHAPE,,,,,"/>
+<approved hash="113,1,185.657,-13.8388,MOD,,,,,"/>
 <approved hash="113,1,197.883,-16.6412,PITCH,,,,,"/>
 <approved hash="113,1,176.085,10.16,SWEEP,,,,,"/>
-<approved hash="113,1,165.368,25.2772,SWEEP_TYPE,,,,,"/>
+<approved hash="113,1,167.403,25.2772,DIR,,,,,"/>
 <approved hash="113,1,305.939,41.3593,VCO_WAVE,,,,,"/>
-<approved hash="113,1,288.659,-41.7788,EXT_POWER,,,,,"/>
+<approved hash="113,1,284.717,-41.7788,DC_IN,,,,,"/>
 <approved hash="113,1,284.717,-73.5288,BATT,,,,,"/>
 <approved hash="113,1,284.717,-95.1188,OUT,,,,,"/>
+<approved hash="113,1,239.082,-77.47,PWR,,,,,"/>
+<approved hash="113,1,167.877,-143.379,IC6,,,,,"/>
+<approved hash="113,1,22.86,103.611,SENS,,,,,"/>
 </errors>
 </schematic>
 </drawing>
