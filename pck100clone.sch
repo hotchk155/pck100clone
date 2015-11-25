@@ -16836,7 +16836,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="PWR" library="led" deviceset="LED" device="3MM"/>
-<part name="R100" library="rcl" deviceset="R-EU_" device="0207/7" value="4k7"/>
+<part name="R44" library="rcl" deviceset="R-EU_" device="0207/7" value="4k7"/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="IC6" library="pinhead" deviceset="PINHD-1X9" device=""/>
@@ -17067,7 +17067,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <instance part="GND27" gate="1" x="203.2" y="5.08"/>
 <instance part="P+10" gate="VCC" x="203.2" y="43.18"/>
 <instance part="PWR" gate="G$1" x="238.76" y="-76.2"/>
-<instance part="R100" gate="G$1" x="238.76" y="-88.9" rot="R90"/>
+<instance part="R44" gate="G$1" x="238.76" y="-88.9" rot="R90"/>
 <instance part="P+11" gate="VCC" x="238.76" y="-68.58"/>
 <instance part="GND28" gate="1" x="238.76" y="-99.06"/>
 <instance part="IC6" gate="A" x="170.18" y="-144.78"/>
@@ -17237,7 +17237,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <pinref part="GND28" gate="1" pin="GND"/>
-<pinref part="R100" gate="G$1" pin="1"/>
+<pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="-96.52" x2="238.76" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -18118,7 +18118,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="R100" gate="G$1" pin="2"/>
+<pinref part="R44" gate="G$1" pin="2"/>
 <pinref part="PWR" gate="G$1" pin="C"/>
 <wire x1="238.76" y1="-83.82" x2="238.76" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
