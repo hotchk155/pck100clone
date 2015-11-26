@@ -18160,7 +18160,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <approved hash="104,1,38.1,-73.66,IC1P,V+,VCC,,,"/>
 <approved hash="104,1,38.1,-88.9,IC1P,V-,GND,,,"/>
 <approved hash="113,1,6.21877,91.6771,TRIG,,,,,"/>
-<approved hash="113,1,21.4588,91.6771,LEVEL,,,,,"/>
+<approved hash="113,1,21.4588,91.6771,SENS,,,,,"/>
 <approved hash="113,1,-7.75123,91.6771,PIEZO,,,,,"/>
 <approved hash="113,1,80.8011,67.1788,DECAY,,,,,"/>
 <approved hash="113,1,228.469,97.5389,ATTACK,,,,,"/>
@@ -18170,13 +18170,13 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <approved hash="113,1,197.883,-16.6412,PITCH,,,,,"/>
 <approved hash="113,1,176.085,10.16,SWEEP,,,,,"/>
 <approved hash="113,1,167.403,25.2772,DIR,,,,,"/>
-<approved hash="113,1,305.939,41.3593,VCO_WAVE,,,,,"/>
+<approved hash="113,1,305.939,38.3371,WAVE,,,,,"/>
 <approved hash="113,1,284.717,-41.7788,DC_IN,,,,,"/>
 <approved hash="113,1,284.717,-73.5288,BATT,,,,,"/>
 <approved hash="113,1,284.717,-95.1188,OUT,,,,,"/>
 <approved hash="113,1,239.082,-77.47,PWR,,,,,"/>
 <approved hash="113,1,167.877,-143.379,IC6,,,,,"/>
-<approved hash="113,1,22.86,103.611,SENS,,,,,"/>
+<approved hash="113,1,21.0317,103.611,SENS_LEVEL,,,,,"/>
 </errors>
 </schematic>
 </drawing>
