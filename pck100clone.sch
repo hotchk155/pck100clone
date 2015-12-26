@@ -17689,11 +17689,6 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <wire x1="167.64" y1="7.62" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
 <label x="165.1" y="-7.62" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC6" gate="A" pin="3"/>
-<wire x1="167.64" y1="-139.7" x2="149.86" y2="-139.7" width="0.1524" layer="91"/>
-<label x="144.78" y="-139.7" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$22" class="0">
 <segment>
