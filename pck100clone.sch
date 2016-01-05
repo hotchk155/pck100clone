@@ -14790,7 +14790,7 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="SENS" library="pinhead" deviceset="PINHD-1X3" device=""/>
-<part name="INPUT" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="TRIG" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="050-025X075" value=".001"/>
@@ -14836,7 +14836,7 @@ Source: www.kingbright.com</description>
 <part name="R37" library="rcl" deviceset="R-EU_" device="0207/7" value="330"/>
 <part name="SHP" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="R41" library="rcl" deviceset="R-EU_" device="0207/7" value="47k"/>
-<part name="MOD" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="DEPTH" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="PITCH" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="R20" library="rcl" deviceset="R-EU_" device="0207/7" value="4k7"/>
 <part name="R26" library="rcl" deviceset="R-EU_" device="0207/7" value="22k"/>
@@ -14926,7 +14926,7 @@ Source: www.kingbright.com</description>
 </plain>
 <instances>
 <instance part="SENS" gate="A" x="22.86" y="93.98" rot="R90"/>
-<instance part="INPUT" gate="G$1" x="-5.08" y="93.98" rot="R90"/>
+<instance part="TRIG" gate="G$1" x="-5.08" y="93.98" rot="R90"/>
 <instance part="GND1" gate="1" x="-7.62" y="81.28"/>
 <instance part="GND3" gate="1" x="25.4" y="81.28"/>
 <instance part="C7" gate="G$1" x="35.56" y="86.36" rot="R90"/>
@@ -15010,7 +15010,7 @@ Source: www.kingbright.com</description>
 <instance part="R37" gate="G$1" x="48.26" y="-38.1" rot="R270"/>
 <instance part="SHP" gate="G$1" x="71.12" y="7.62"/>
 <instance part="R41" gate="G$1" x="55.88" y="-15.24" rot="R180"/>
-<instance part="MOD" gate="A" x="187.96" y="-15.24"/>
+<instance part="DEPTH" gate="A" x="187.96" y="-15.24"/>
 <instance part="PITCH" gate="A" x="195.58" y="-15.24" rot="R180"/>
 <instance part="R20" gate="G$1" x="154.94" y="10.16" rot="R180"/>
 <instance part="R26" gate="G$1" x="180.34" y="20.32" smashed="yes" rot="R180">
@@ -15159,7 +15159,7 @@ Source: www.kingbright.com</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="INPUT" gate="G$1" pin="1"/>
+<pinref part="TRIG" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-7.62" y1="91.44" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -15316,7 +15316,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="INPUT" gate="G$1" pin="2"/>
+<pinref part="TRIG" gate="G$1" pin="2"/>
 <wire x1="-5.08" y1="91.44" x2="-5.08" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SENS" gate="A" pin="1"/>
@@ -15672,7 +15672,7 @@ Source: www.kingbright.com</description>
 <label x="180.34" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MOD" gate="A" pin="3"/>
+<pinref part="DEPTH" gate="A" pin="3"/>
 <wire x1="185.42" y1="-17.78" x2="177.8" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="-17.78" x2="177.8" y2="-27.94" width="0.1524" layer="91"/>
 <label x="175.26" y="-30.48" size="1.778" layer="95"/>
@@ -15809,7 +15809,7 @@ Source: www.kingbright.com</description>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="IC4" gate="B" pin="+IN"/>
 <wire x1="185.42" y1="20.32" x2="193.04" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="MOD" gate="A" pin="1"/>
+<pinref part="DEPTH" gate="A" pin="1"/>
 <wire x1="193.04" y1="20.32" x2="195.58" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="-12.7" x2="177.8" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="-12.7" x2="177.8" y2="-2.54" width="0.1524" layer="91"/>
@@ -15826,7 +15826,7 @@ Source: www.kingbright.com</description>
 <net name="N$28" class="0">
 <segment>
 <pinref part="R40" gate="G$1" pin="1"/>
-<pinref part="MOD" gate="A" pin="2"/>
+<pinref part="DEPTH" gate="A" pin="2"/>
 <wire x1="175.26" y1="-15.24" x2="185.42" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -16180,24 +16180,21 @@ Source: www.kingbright.com</description>
 <approved hash="104,1,203.2,15.24,IC4P,V-,GND,,,"/>
 <approved hash="104,1,38.1,-73.66,IC1P,V+,VCC,,,"/>
 <approved hash="104,1,38.1,-88.9,IC1P,V-,GND,,,"/>
-<approved hash="113,1,6.21877,91.6771,TRIG,,,,,"/>
 <approved hash="113,1,21.4588,91.6771,SENS,,,,,"/>
-<approved hash="113,1,-7.75123,91.6771,PIEZO,,,,,"/>
+<approved hash="113,1,-7.75123,91.6771,TRIG,,,,,"/>
 <approved hash="113,1,80.8011,67.1788,DECAY,,,,,"/>
-<approved hash="113,1,228.469,97.5389,ATTACK,,,,,"/>
 <approved hash="113,1,57.9504,-25.4,RATE,,,,,"/>
-<approved hash="113,1,69.0812,10.2912,SHAPE,,,,,"/>
-<approved hash="113,1,185.657,-13.8388,MOD,,,,,"/>
+<approved hash="113,1,68.8171,10.2912,SHP,,,,,"/>
+<approved hash="113,1,185.921,-13.8388,DEPTH,,,,,"/>
 <approved hash="113,1,197.883,-16.6412,PITCH,,,,,"/>
-<approved hash="113,1,176.085,10.16,SWEEP,,,,,"/>
-<approved hash="113,1,167.403,25.2772,DIR,,,,,"/>
 <approved hash="113,1,305.939,38.3371,WAVE,,,,,"/>
-<approved hash="113,1,284.717,-41.7788,DC_IN,,,,,"/>
-<approved hash="113,1,284.717,-73.5288,BATT,,,,,"/>
-<approved hash="113,1,284.717,-95.1188,OUT,,,,,"/>
 <approved hash="113,1,239.082,-77.47,PWR,,,,,"/>
 <approved hash="113,1,167.877,-143.379,IC6,,,,,"/>
-<approved hash="113,1,21.0317,103.611,SENS_LEVEL,,,,,"/>
+<approved hash="113,1,284.717,-43.0488,9VDC,,,,,"/>
+<approved hash="113,1,284.717,-96.3888,OUT,,,,,"/>
+<approved hash="113,1,149.586,22.9912,SWEEP,,,,,"/>
+<approved hash="113,1,229.739,96.7571,CLICK,,,,,"/>
+<approved hash="113,1,82.4188,109.457,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
