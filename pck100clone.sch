@@ -14919,6 +14919,7 @@ Source: www.kingbright.com</description>
 <part name="SWEEP" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="CLICK" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15153,6 +15154,7 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="CLICK" gate="A" x="231.14" y="99.06" rot="R90"/>
 <instance part="JP1" gate="G$1" x="83.82" y="111.76" rot="R90"/>
+<instance part="GND2" gate="1" x="233.68" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -15312,6 +15314,11 @@ Source: www.kingbright.com</description>
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="167.64" y1="-60.96" x2="170.18" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="-60.96" x2="170.18" y2="-63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CLICK" gate="A" pin="3"/>
+<wire x1="233.68" y1="96.52" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
