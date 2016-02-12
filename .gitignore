@@ -32,11 +32,11 @@
 *.GTO
 *.GTP
 *.GTS
-*.TXT
 *.gm1
 *.gbp
 *.zip
-
+*drills.txt
+*drills_NPTH.txt
 
 
 *.jbf
