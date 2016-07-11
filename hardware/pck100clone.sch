@@ -47,8 +47,13 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -58,6 +63,73 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -14779,6 +14851,56 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jason_eagle6">
+<packages>
+<package name="TRIM-N">
+<pad name="W" x="-2.54" y="0" drill="0.8" shape="long"/>
+<pad name="B" x="0" y="2.54" drill="0.8" shape="long"/>
+<pad name="A" x="0" y="-2.54" drill="0.8" shape="long"/>
+<circle x="0" y="0" radius="2.83980625" width="0.127" layer="21"/>
+<text x="-3.81" y="-5.08" size="1.27" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TPOT">
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-3.048" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.032" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TRIM_EU-" prefix="R" uservalue="yes">
+<description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="TPOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TRIM-N">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="E" pad="B"/>
+<connect gate="1" pin="S" pad="W"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14912,7 +15034,6 @@ Source: www.kingbright.com</description>
 <part name="Q6" library="transistor" deviceset="2N3904" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
-<part name="R45" library="rcl" deviceset="R-EU_" device="0207/7" value="4k7"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="9VDC" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="OUT" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -15052,6 +15173,7 @@ Source: www.kingbright.com</description>
 <part name="JP143" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP144" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="JP145" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="R45" library="jason_eagle6" deviceset="TRIM_EU-" device="" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -15219,8 +15341,8 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="252.603" y="-47.7774" size="1.778" layer="95"/>
 <attribute name="VALUE" x="250.063" y="-52.8574" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="1" x="264.16" y="-48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="267.97" y="-50.2666" size="1.778" layer="95" rot="R180"/>
+<instance part="D1" gate="1" x="269.24" y="-43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="271.2466" y="-39.37" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="GND23" gate="1" x="269.24" y="-60.96"/>
 <instance part="P+7" gate="VCC" x="259.08" y="-33.02"/>
@@ -15276,8 +15398,7 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="GND14" gate="1" x="109.22" y="-167.64"/>
 <instance part="P+12" gate="VCC" x="109.22" y="-116.84"/>
-<instance part="R45" gate="G$1" x="162.56" y="-60.96"/>
-<instance part="GND29" gate="1" x="170.18" y="-66.04"/>
+<instance part="GND29" gate="1" x="200.66" y="-73.66"/>
 <instance part="9VDC" gate="G$1" x="287.02" y="-45.72"/>
 <instance part="OUT" gate="G$1" x="287.02" y="-99.06"/>
 <instance part="SWEEP" gate="A" x="147.32" y="22.86" smashed="yes" rot="R180">
@@ -15419,6 +15540,7 @@ Source: www.kingbright.com</description>
 <instance part="JP143" gate="G$1" x="203.2" y="-231.14"/>
 <instance part="JP144" gate="G$1" x="203.2" y="-236.22"/>
 <instance part="JP145" gate="G$1" x="203.2" y="-241.3"/>
+<instance part="R45" gate="1" x="200.66" y="-60.96" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -15525,15 +15647,11 @@ Source: www.kingbright.com</description>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="284.48" y1="-45.72" x2="269.24" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="-45.72" x2="269.24" y2="-55.88" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="A"/>
 <wire x1="269.24" y1="-55.88" x2="269.24" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="-55.88" x2="264.16" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="-55.88" x2="264.16" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="269.24" y="-55.88"/>
 <pinref part="C10" gate="G$1" pin="-"/>
-<wire x1="264.16" y1="-55.88" x2="259.08" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="-55.88" x2="259.08" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="-55.88" x2="259.08" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="264.16" y="-55.88"/>
 <pinref part="9VDC" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -15572,12 +15690,6 @@ Source: www.kingbright.com</description>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="109.22" y1="-165.1" x2="109.22" y2="-162.56" width="0.1524" layer="91"/>
 <junction x="109.22" y="-162.56"/>
-</segment>
-<segment>
-<pinref part="R45" gate="G$1" pin="2"/>
-<pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="167.64" y1="-60.96" x2="170.18" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-60.96" x2="170.18" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CLICK" gate="A" pin="3"/>
@@ -15631,6 +15743,11 @@ Source: www.kingbright.com</description>
 <wire x1="50.8" y1="-231.14" x2="50.8" y2="-226.06" width="0.1524" layer="91"/>
 <junction x="50.8" y="-231.14"/>
 <junction x="50.8" y="-226.06"/>
+</segment>
+<segment>
+<pinref part="GND29" gate="1" pin="GND"/>
+<pinref part="R45" gate="1" pin="A"/>
+<wire x1="200.66" y1="-71.12" x2="200.66" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -15780,17 +15897,13 @@ Source: www.kingbright.com</description>
 <wire x1="281.94" y1="30.48" x2="281.94" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D1" gate="1" pin="C"/>
-<wire x1="284.48" y1="-43.18" x2="264.16" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="-43.18" x2="264.16" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="+"/>
-<wire x1="264.16" y1="-43.18" x2="259.08" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="-43.18" x2="259.08" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="264.16" y="-43.18"/>
-<wire x1="259.08" y1="-43.18" x2="259.08" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="259.08" y="-43.18"/>
+<wire x1="259.08" y1="-45.72" x2="259.08" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="VCC" pin="VCC"/>
-<pinref part="9VDC" gate="G$1" pin="1"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="259.08" y1="-43.18" x2="259.08" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="-43.18" x2="259.08" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="259.08" y="-43.18"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="-91.44" x2="144.78" y2="-91.44" width="0.1524" layer="91"/>
@@ -16379,10 +16492,16 @@ Source: www.kingbright.com</description>
 <wire x1="180.34" y1="-71.12" x2="152.4" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="-71.12" x2="152.4" y2="-60.96" width="0.1524" layer="91"/>
 <label x="180.34" y="-71.12" size="1.778" layer="95"/>
-<pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="-60.96" x2="152.4" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="-60.96" x2="152.4" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="152.4" y="-60.96"/>
+<pinref part="R45" gate="1" pin="S"/>
+<wire x1="152.4" y1="-60.96" x2="190.5" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="R45" gate="1" pin="E"/>
+<wire x1="190.5" y1="-60.96" x2="195.58" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-55.88" x2="200.66" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-53.34" x2="190.5" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-53.34" x2="190.5" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="190.5" y="-60.96"/>
 </segment>
 <segment>
 <pinref part="Q6" gate="G1" pin="C"/>
@@ -17001,6 +17120,13 @@ Source: www.kingbright.com</description>
 <wire x1="180.34" y1="-231.14" x2="180.34" y2="-236.22" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-236.22" x2="180.34" y2="-241.3" width="0.1524" layer="91"/>
 <junction x="180.34" y="-236.22"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="9VDC" gate="G$1" pin="1"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="284.48" y1="-43.18" x2="271.78" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
