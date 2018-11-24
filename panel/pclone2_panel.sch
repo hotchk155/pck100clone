@@ -4543,7 +4543,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
 <part name="JP1" library="jason_eagle6" deviceset="PINHD-1X1" device="SMT"/>
 <part name="GND" library="jason_eagle6" deviceset="PINHD-1X1" device="SMT"/>
 </parts>
