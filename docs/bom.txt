@@ -1,5 +1,11 @@
 PCLONE2 ANALOG PERCUSSION SYNTH
 
+
+PRINTED CIRCUIT BOARD
+
+ACRYLIC CASE KIT
+
+
 RESISTOR KIT
 ------------
 
@@ -16,7 +22,9 @@ R32 ...........................................................	220k resistor
 R10 ...........................................................	1M resistor
 R16 ...........................................................	4M7 resistor
 
-R3 ...........................................................	NOT POPULATED
+R3 ............................................................ NOT POPULATED
+On Sweep Switch ............................................... 470R
+
 
 OTHER COMPONENTS
 ----------------
@@ -81,14 +89,11 @@ FIXINGS BAG
 -----------
 STANDOFF M3 12MM x 4
 M3 6MM MACHINE SCREW PHILIPS x 4
-M3 8MM MACHINE SCREM ALLEN x 6
+M3 8MM MACHINE SCREM ALLEN x 10
 M3 FLANGE NUT x 4
 M3 HEX NUT x 2
 
 
 COIL OF WIRE (~1M x 10)
 
-PRINTED CIRCUIT BOARD
 
-
-****************470R res
