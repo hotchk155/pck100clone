@@ -4193,7 +4193,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="GND9" gate="1" x="35.56" y="124.46"/>
 <instance part="GND10" gate="1" x="111.76" y="121.92"/>
 <instance part="GND11" gate="1" x="111.76" y="88.9"/>
-<instance part="470" gate="G$1" x="86.36" y="116.84" rot="R90"/>
+<instance part="470" gate="G$1" x="88.9" y="111.76" rot="R90"/>
 <instance part="JP1" gate="G$1" x="121.92" y="-27.94"/>
 <instance part="MRAT" gate="A" x="76.2" y="-68.58" smashed="yes">
 <attribute name="NAME" x="80.645" y="-72.39" size="1.778" layer="95" rot="R90"/>
@@ -4394,7 +4394,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </segment>
 <segment>
 <pinref part="470" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="111.76" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="106.68" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
 <label x="83.82" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -4636,18 +4636,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="VCO_WAVE" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="SWEEP_DIR" gate="G$1" pin="B2"/>
-<wire x1="93.98" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="127" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="SWEEP_DIR" gate="G$1" pin="A1"/>
-<wire x1="86.36" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="470" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="121.92" x2="86.36" y2="127" width="0.1524" layer="91"/>
-<junction x="86.36" y="127"/>
-</segment>
-</net>
 <net name="SWEEP_B" class="0">
 <segment>
 <pinref part="SWEEP" gate="G$1" pin="B"/>
@@ -4655,14 +4643,29 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="170.18" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
+<label x="68.58" y="137.16" size="1.778" layer="95"/>
+<junction x="83.82" y="137.16"/>
+<wire x1="86.36" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="SWEEP_DIR" gate="G$1" pin="B2"/>
+<wire x1="93.98" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="127" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="SWEEP_DIR" gate="G$1" pin="A1"/>
+<wire x1="86.36" y1="137.16" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
+<junction x="86.36" y="137.16"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="470" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="116.84" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="SWEEP_DIR" gate="G$1" pin="B1"/>
+<wire x1="88.9" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="SWEEP_DIR" gate="G$1" pin="A2"/>
 <wire x1="93.98" y1="132.08" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="132.08" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="SWEEP_DIR" gate="G$1" pin="B1"/>
-<wire x1="88.9" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
-<junction x="88.9" y="137.16"/>
-<label x="68.58" y="137.16" size="1.778" layer="95"/>
+<junction x="88.9" y="132.08"/>
 </segment>
 </net>
 </nets>
