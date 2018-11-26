@@ -4147,6 +4147,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="VSHP" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4235,6 +4237,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="GND12" gate="1" x="104.14" y="-17.78"/>
 <instance part="GND13" gate="1" x="45.72" y="-81.28"/>
+<instance part="GND1" gate="1" x="83.82" y="40.64"/>
+<instance part="GND14" gate="1" x="58.42" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -4249,23 +4253,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="88.9" y="-27.94" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="-27.94" x2="88.9" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SENS1" class="0">
-<segment>
-<pinref part="DECAY" gate="G$1" pin="A"/>
-<wire x1="83.82" y1="48.26" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
-<label x="83.82" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SENS" gate="G$1" pin="A"/>
-<wire x1="58.42" y1="48.26" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
-<label x="58.42" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TSENS" gate="A" pin="1"/>
-<wire x1="73.66" y1="-5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
-<label x="55.88" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SENS2" class="0">
@@ -4566,12 +4553,27 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="45.72" y1="-78.74" x2="45.72" y2="-15.24" width="0.1524" layer="91"/>
 <label x="55.88" y="2.54" size="1.778" layer="95"/>
 <pinref part="TIN" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="-15.24" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-15.24" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-5.08" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="2.54" x2="73.66" y2="2.54" width="0.1524" layer="91"/>
 <label x="55.88" y="-15.24" size="1.778" layer="95"/>
 <pinref part="ADECAY" gate="A" pin="1"/>
 <wire x1="45.72" y1="-15.24" x2="73.66" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="45.72" y="-15.24"/>
+<pinref part="TSENS" gate="A" pin="1"/>
+<wire x1="73.66" y1="-5.08" x2="45.72" y2="-5.08" width="0.1524" layer="91"/>
+<label x="55.88" y="-5.08" size="1.778" layer="95"/>
+<junction x="45.72" y="-5.08"/>
+</segment>
+<segment>
+<pinref part="DECAY" gate="G$1" pin="A"/>
+<wire x1="83.82" y1="48.26" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SENS" gate="G$1" pin="A"/>
+<wire x1="58.42" y1="48.26" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="CLICK1" class="0">
