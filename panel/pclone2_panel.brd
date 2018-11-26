@@ -161,7 +161,7 @@ WAVE</text>
 WAVE</text>
 <text x="75.93" y="18.183" size="1.778" layer="22" font="vector" rot="MR180">TRIG</text>
 <text x="73.142" y="9.729" size="1.6" layer="22" font="vector" rot="MR0">PCLONE2 CONTROL PANEL PCB V1</text>
-<text x="6.211" y="40.265" size="1.6" layer="22" font="vector" rot="MR270">SIXTY FOUR PIXELS LTD</text>
+<text x="45.735" y="13.211" size="1.6" layer="22" font="vector" rot="MR180">SIXTY FOUR PIXELS LTD</text>
 <rectangle x1="12.105159375" y1="6.4262" x2="19.725159375" y2="6.45668125" layer="52"/>
 <rectangle x1="12.105159375" y1="6.45668125" x2="19.725159375" y2="6.48715625" layer="52"/>
 <rectangle x1="12.105159375" y1="6.487159375" x2="19.725159375" y2="6.517640625" layer="52"/>
