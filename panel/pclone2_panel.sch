@@ -4262,9 +4262,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="58.42" y1="-7.62" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SENS" gate="G$1" pin="B"/>
-<wire x1="58.42" y1="63.5" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
-<label x="58.42" y="66.04" size="1.778" layer="95"/>
+<label x="66.04" y="53.34" size="1.778" layer="95"/>
+<pinref part="SENS" gate="G$1" pin="W"/>
+<wire x1="63.5" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SENS3" class="0">
@@ -4274,9 +4274,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="58.42" y1="-10.16" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SENS" gate="G$1" pin="W"/>
-<wire x1="63.5" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
-<label x="66.04" y="53.34" size="1.778" layer="95"/>
+<label x="60.96" y="63.5" size="1.778" layer="95" rot="R90"/>
+<wire x1="58.42" y1="63.5" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="SENS" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="DECAY" class="0">
@@ -4357,9 +4357,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="58.42" y1="-38.1" x2="73.66" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SWEEP_DIR" gate="G$1" pin="COM1"/>
-<wire x1="109.22" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
-<label x="119.38" y="139.7" size="1.778" layer="95"/>
+<label x="116.84" y="127" size="1.778" layer="95"/>
+<wire x1="109.22" y1="129.54" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SWEEP_DIR" gate="G$1" pin="COM2"/>
 </segment>
 </net>
 <net name="SWEEP3" class="0">
@@ -4381,9 +4381,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="58.42" y1="-43.18" x2="73.66" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SWEEP_DIR" gate="G$1" pin="COM2"/>
-<wire x1="109.22" y1="129.54" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
-<label x="119.38" y="129.54" size="1.778" layer="95"/>
+<label x="119.38" y="139.7" size="1.778" layer="95"/>
+<wire x1="109.22" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="SWEEP_DIR" gate="G$1" pin="COM1"/>
 </segment>
 </net>
 <net name="DEPTH1" class="0">
