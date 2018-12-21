@@ -149,7 +149,7 @@ B470R</text>
 A100K</text>
 <text x="33.274" y="54.483" size="1.778" layer="22" font="vector" rot="MR0">SENS
 A100K</text>
-<text x="45.212" y="49.403" size="1.778" layer="22" font="vector" rot="MR0">DECAY
+<text x="55.462" y="47.603" size="1.778" layer="22" font="vector" rot="MR0">DECAY
 A1M</text>
 <text x="60.23" y="56.118" size="1.778" layer="22" font="vector" rot="MR180">RATE
 A100K</text>
@@ -160,8 +160,8 @@ WAVE</text>
 <text x="86.233" y="72.898" size="1.778" layer="22" font="vector" rot="MR0">LFO
 WAVE</text>
 <text x="77.28" y="18.583" size="1.778" layer="22" font="vector" rot="MR180">-TRIG+</text>
-<text x="73.142" y="9.729" size="1.6" layer="22" font="vector" rot="MR0">PCLONE2 CONTROL PANEL PCB V2</text>
-<text x="45.735" y="13.211" size="1.6" layer="22" font="vector" rot="MR180">SIXTY FOUR PIXELS LTD</text>
+<text x="6.521" y="58.042" size="1.6" layer="22" font="vector" rot="MR270">PCLONE2 CONTROL PANEL PCB V2</text>
+<text x="87.439" y="26.285" size="1.6" layer="22" font="vector" rot="MR90">SIXTY FOUR PIXELS LTD</text>
 <rectangle x1="12.105159375" y1="6.4262" x2="19.725159375" y2="6.45668125" layer="52"/>
 <rectangle x1="12.105159375" y1="6.45668125" x2="19.725159375" y2="6.48715625" layer="52"/>
 <rectangle x1="12.105159375" y1="6.487159375" x2="19.725159375" y2="6.517640625" layer="52"/>
@@ -748,10 +748,10 @@ WAVE</text>
 <wire x1="23" y1="5" x2="84" y2="5" width="0.4064" layer="22"/>
 <wire x1="84" y1="5" x2="84" y2="9.3" width="0.4064" layer="22"/>
 <wire x1="84" y1="9.3" x2="23" y2="9.3" width="0.4064" layer="22"/>
-<wire x1="31" y1="48.55" x2="31" y2="44.55" width="0.4064" layer="22"/>
+<wire x1="31.95" y1="48.55" x2="31.95" y2="44.55" width="0.4064" layer="22"/>
 <wire x1="44.85" y1="45.55" x2="44.85" y2="48.55" width="0.4064" layer="22"/>
-<wire x1="44.85" y1="48.55" x2="31" y2="48.55" width="0.4064" layer="22"/>
-<wire x1="43.35" y1="44.55" x2="31" y2="44.55" width="0.4064" layer="22"/>
+<wire x1="44.85" y1="48.55" x2="31.95" y2="48.55" width="0.4064" layer="22"/>
+<wire x1="43.35" y1="44.55" x2="31.95" y2="44.55" width="0.4064" layer="22"/>
 </plain>
 <libraries>
 <library name="jason_eagle6">
