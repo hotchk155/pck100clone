@@ -5071,20 +5071,15 @@ Parts Updated:
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,73.66,-53.34,DEPTH3,,,,,"/>
-<approved hash="106,1,73.66,-35.56,SWEEP1,,,,,"/>
-<approved hash="113,1,85.3652,116.84,470,,,,,"/>
-<approved hash="113,1,119.617,-26.5388,JP1,,,,,"/>
-<approved hash="113,1,75.2898,-68.58,MRAT,,,,,"/>
-<approved hash="113,1,75.2898,-58.9973,MSHP,,,,,"/>
-<approved hash="113,1,75.2898,-50.8,MDEP,,,,,"/>
-<approved hash="113,1,75.2898,-39.37,VSWP,,,,,"/>
-<approved hash="113,1,75.2898,-27.5265,VPITCH,,,,,"/>
-<approved hash="113,1,75.2898,-16.8934,ADECAY,,,,,"/>
-<approved hash="113,1,75.2898,-7.62,TSENS,,,,,"/>
-<approved hash="113,1,75.2898,1.27,TIN,,,,,"/>
-<approved hash="113,1,113.39,2.54,CLK,,,,,"/>
-<approved hash="113,1,113.39,-7.62,VSHP,,,,,"/>
+<approved hash="106,1,132.08,-55.88,DEPTH3,,,,,"/>
+<approved hash="106,1,132.08,-40.64,SWEEP1,,,,,"/>
+<approved hash="113,1,87.9052,111.76,470,,,,,"/>
+<approved hash="113,1,71.3571,-100.199,JP1,,,,,"/>
+<approved hash="113,1,73.8971,21.7212,JP2,,,,,"/>
+<approved hash="113,1,132.317,-7.48877,JP3,,,,,"/>
+<approved hash="113,1,132.317,-48.1288,JP4,,,,,"/>
+<approved hash="113,1,132.317,-67.1788,JP5,,,,,"/>
+<approved hash="113,1,73.8971,-74.7988,JP6,,,,,"/>
 </errors>
 </schematic>
 </drawing>
