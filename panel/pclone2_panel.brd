@@ -157,8 +157,7 @@ A100K</text>
 <text x="41.275" y="70.739" size="1.778" layer="22" font="vector" rot="MR0">VCO
 WAVE</text>
 <text x="68.453" y="73.406" size="1.778" layer="22" font="vector" rot="MR0">SWEEP</text>
-<text x="88.773" y="77.978" size="1.778" layer="22" font="vector" rot="MR0">LFO
-WAVE</text>
+<text x="86.995" y="73.406" size="1.778" layer="22" font="vector" rot="MR0">LFO WAVE</text>
 <text x="77.28" y="18.583" size="1.778" layer="22" font="vector" rot="MR180">-TRIG+</text>
 <text x="6.521" y="58.042" size="1.6" layer="22" font="vector" rot="MR270">PCLONE2 CONTROL PANEL PCB V3</text>
 <text x="87.439" y="26.285" size="1.6" layer="22" font="vector" rot="MR90">SIXTY FOUR PIXELS LTD</text>
