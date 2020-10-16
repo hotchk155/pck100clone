@@ -1,99 +1,95 @@
-PCLONE2 ANALOG PERCUSSION SYNTH
 
+RESISTOR BAG
+============
+R37								330r Resistor
+R6, R7, R17, R21 				1k Resistor
+R14, R20, R22, R44  			4k7  Resistor
+R15 							10k Resistor
+R13, R26, R27, R39, R43 		22k Resistor
+R8, R19 						33k Resistor
+R1, R2, R4, R5, R23, R28, ...
+R29, R33, R34, R38, R41, R42 	47k Resistor
+R18 							56k Resistor
+R9, R11, R12, R24, R25, R30, ...
+R31, R35, R36, R40 				100k Resistor
+R32 							220k Resistor
+R10 							1M Resistor
+R16 							4M7 Resistor
+(pre-soldered surface mount)	470R Resistor
 
-PRINTED CIRCUIT BOARD
+COMPONENT BAG
+=============
+D1 								1N5817 Schottky Rectifier Diode
+D2, D3, D4 						1N4148 Small Signal Diode
+C1, C2, C6 						47nF Polyester Box Capacitor
+C13 							22nF Polyester Box Capacitor
+C16 							3.3nF Polyester Box Capacitor
+C4, C5, C7, C15					1nF Polyester Box Capacitor
+C3, C11, C12 					1uF/50V Electrolytic Capacitor
+C8 								2.2uF/50V Electrolytic Capacitor
+C9 								10uF/16V Electrolytic Capacitor
+C10, C14 						100uF/16V Electrolytic Capacitor
+Q1, Q2 							2SC945P NPN Transistor
+Q3, Q4 							2N3906 PNP Transistor
+Q5, Q6 							2N3904  NPN Transistor
+PWR 							3mm LED
+2x								Six pin female single-in-line 2.54mm pitch
+1x								23 pin female single-in-line 2.54mm pitch
 
-ACRYLIC CASE KIT
+--On ESD foam
+R45								10k Trimmer Pot
+IC1 							RC4558 Dual Op-Amp DIP8 
+IC3, IC4, IC5 					LM2904 Dual Op-Amp DIP8 
+IC6 							BA6110 Single Op-Amp SIP9 
+4x								DIP8 Socket
+1x								DIL9 Socket
 
+POTENTIOMETERS AND SWITCHES BAG
+===============================
+SENSIVITY, PITCH, RATE, DEPTH	100K Logarithmic Potentiometer 
+DECAY							1M Logarithmic Potentiometer 
+SWEEP							470R Linear Potentiometer
+CLICK, VCO WAVE, MOD WAVE		SPDT Toggle Switch
+SWEEP DIR						DPDT Toggle Switch
 
-RESISTOR KIT
-------------
+POTENTIOMETERS KNOBS BAGS
+=========================
+6x								Potentiometer Knob
 
-R37 ...........................................................	330 resistor
-R6, R7, R17, R21 ..............................................	1k resistor
-R14, R20, R22, R44 ............................................ 4k7 resistor
-R15 ...........................................................	10k resistor 
-R13, R26, R27, R39, R43 .......................................	22k resistor
-R8, R19 .......................................................	33k resistor
-R1, R2, R4, R5, R23, R28, R29, R33, R34, R38, R41, R42 ........	47k resistor
-R18 ...........................................................	56k resistor
-R9, R11, R12, R24, R25, R30, R31, R35, R36, R40 ...............	100k resistor
-R32 ...........................................................	220k resistor
-R10 ...........................................................	1M resistor
-R16 ...........................................................	4M7 resistor
+SOCKETS BAGS
+============
+5x Panel Mount 3.5mm Switched Mono Jack Socket 
+1x 2.1mm Power Socket
 
-R3 ............................................................ NOT POPULATED
-On Sweep Switch ............................................... 470R
+FIXINGS
+=======
+4x 11mm M3 standoff
+6x 8mm M3 hex head machine screw
+4x 12mm M3 hex head machine screw
+4x M3 pozi head machine screw.
+4x M3 nylon washer
+4x M3 flanged nut, 
+2x M3 hex nut, 
+4x self adhesive rubber feet
 
+PIEZO AND WIRES
+===============
+1x PIEZO disk with wires
+1x Adhesive foam pads
+??? Insulated wire 
+??? Uninsulated tinned copper wire
 
-OTHER COMPONENTS
-----------------
+CASE PANELS PACKAGE
+===================
+1x 3mm Top panel
+1x 3mm Bottom Panel
+1x 3mm front panel
+1x 3mm rear panel with hole for power socket
+2x 3mm side panels
+2x 5mm side panels
+1x Etched acrylic face plate
 
-R45 ...........................................................	10k Trim pot
-
-D1 ............................................................	1N5819 schottky rectifier diode
-D2, D3, D4 ....................................................	1N4148 signal diode (+2)
-
-C1, C2, C6 ....................................................	47nF polyester box capacitor
-C13 ...........................................................	22nF polyester box capacitor
-C16 ...........................................................	3.3nF polyester box capacitor
-C4, C5, C7, C15	............................................... 1nF polyester box capacitor
-
-C3, C11, C12 .................................................. 1uF/50V electrolytic capacitor
-C8 ............................................................	2.2uF/50V electrolytic capacitor
-C9 ............................................................	10uF/16V electrolytic capacitor
-C10, C14 ......................................................	100uF/16V electrolytic capacitor
-
-PWR ...........................................................	3mm LED	
-
-Q1, Q2 ........................................................ 2SC945 transistor NPN
-Q3, Q4 ........................................................ 2N3906 transistor PNP
-Q5, Q6 ........................................................ 2N3904 transistor NPN (+1)
-
-
-IC1 ...........................................................	4558 op-amp DIP8 
-IC3, IC4, IC5 .................................................	2904 op-amp DIP8 
-IC6 ...........................................................	BA6110 op amp SIL9  
-
-8 PIN DIP IC SOCKET x 4
-9 PIN SIL IC SOCKET
-
-
-POTENTIOMETER BAG
------------------
-1M LOG POTENTIOMETER x 1
-470R LIN POTENTIOMETER x 1
-100K LOG POTENTIOMETER x 4
-
-SOCKETS BAG
------------
-5 x 3.5MM SWITCHED MONO JACK SOCKET PANEL MOUNT
-2.1MM DC SOCKET
-
-SWITCHES BAG
-------------
-SPDT TOGGLE SWITCH x 3
-DPDT TOGGLE SWITCH x 1
-
-KNOBS BAG
----------
-POTENTIOMETER KNOB x 6
-
-EXTRAS BAG
-----------
-PIEZO DISK 27MM
-ZIP TIE 10MM x 10
-SELF ADHESIVE FOAM PAD
-
-FIXINGS BAG
------------
-STANDOFF M3 12MM x 4
-M3 6MM MACHINE SCREW PHILIPS x 4
-M3 8MM MACHINE SCREM ALLEN x 10
-M3 FLANGE NUT x 4
-M3 HEX NUT x 2
-
-
-COIL OF WIRE (~1M x 10)
-
-
+PCBS
+====
+1x main PCB
+1x panel PCB with attached surface mount headers
